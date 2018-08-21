@@ -6,9 +6,11 @@ import (
 	"github.com/astaxie/beego/context"
 	"strings"
 	"net/http"
+	_"ihome/models"
 )
 
 func main() {
+
 	ignnoreStaticPath()
 	beego.Run()
 }
